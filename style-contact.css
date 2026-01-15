@@ -1,0 +1,89 @@
+.flex_type{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error{
+  color:red;
+  display: none;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    background-color: #00000057;
+    
+    transition: 0.3s background-color;
+}
+#active{
+    background-color: #00000085;
+    color: white ;
+}
+.textbox{
+  cursor: text !important;
+  color: white!important;
+  background: none!important;
+   border:none!important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.5)!important;
+   border-radius: 0!important; 
+}
+::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+.textbox:focus{
+  border-bottom:1px solid rgba(255, 255, 255, 0.8)!important;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    color: white !important;
+    -webkit-text-fill-color: #fff;
+}
+        #background-image{
+          margin-top:-58.59px;
+          height: 100vh;
+          background-image: url('Images/Bg-contact.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        @media (min-width: 992px) {
+          .height_{
+            height: 75%;
+            width: 50%;
+        }
+      }
+        @media (max-width: 991px) {
+            #navbarSupportedContent {
+                margin-top: 2.6%;
+            }
+            .nav-link{
+                padding-left: 5% !important;
+            }
+            .height_{
+              height: 75%;
+              width:276px !important;
+            }
+        }
+        @media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+          .activer{
+            width: 92.875px;
+            padding-left: 8px;
+            padding-right: 8px;
+          }
+          }
+        @media (max-height: 680px) and (max-width:991px) {
+          .height_{
+            padding-bottom:0;
+            height:85%;
+            margin-top: 60px;
+          }
+        }

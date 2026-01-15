@@ -1,0 +1,62 @@
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    background-color: #00000057;
+    
+    transition: 0.3s background-color;
+}
+#active{
+    background-color: #00000085;
+    color: white ;
+}
+#introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 100vh;
+        }
+
+        .carousel-item:nth-child(1) {
+          background-image: url('Images/Bg.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+
+        .carousel-item:nth-child(2) {
+          background-image: url('Images/Bg2.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+
+        .carousel-item:nth-child(3) {
+          background-image: url('Images/Bg4.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        .carousel-item:nth-child(4) {
+          background-image: url('Images/Bg3.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+
+
+        @media (max-width: 991px) {
+            #navbarSupportedContent {
+                margin-top: 2.6%;
+            }
+            .nav-link{
+                padding-left: 5% !important;
+            }
+        }
+        @media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+          .activer{
+            width: 92.875px;
+            padding-left: 8px;
+            padding-right: 8px;
+          }
+          }

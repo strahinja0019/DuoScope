@@ -1,0 +1,93 @@
+.flex_type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .error{
+    color:red;
+    display: none;
+  }
+  .nav-link{
+      color: white !important;
+  }
+  .nav-link:hover{
+      background-color: #00000057;
+      
+      transition: 0.3s background-color;
+  }
+  #active{
+      background-color: #00000085;
+      color: white ;
+  }
+ #service{
+  cursor: pointer !important;
+ }
+ .option_thing{
+  background-color:white;
+  color: black;
+ }
+ input[type="radio"] {
+  display: none;
+}
+.selector{
+  color: white!important;
+  width: 25%;
+  text-align: center;
+  cursor: pointer !important;
+  background: rgba(0,0,0,0)!important;
+  border:1px solid black!important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+input[type="radio"]:checked + label {
+  background-color: white!important;
+  color: black !important;
+  border-color: white !important;
+}
+
+  select {
+    appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+  .textbox{
+    cursor: text !important;
+    color: white!important;
+    background: rgba(0,0,0,0)!important;
+    border:1px solid black!important;
+  }
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+      transition: background-color 5000s ease-in-out 0s;
+      color: white !important;
+      -webkit-text-fill-color: #fff;
+  }
+          #background-image{
+            margin-top:-58.59px;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+    @media (min-width: 992px) {
+          .width_{
+            width: 25%;
+        }
+    }
+    @media (max-width: 991px) {
+          .width_{
+            width: 75%;
+          }
+    }
