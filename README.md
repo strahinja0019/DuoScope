@@ -9,6 +9,9 @@ User Prototypes: Visual layouts for player profiles, game selection, and "matchi
 
 Modern UI: Utilizes modern CSS techniques for a sleek, dark-themed gaming aesthetic.
 
+Teamate Preferences: DuoScope allows you to choose your teamate based on YOUR preferences, if you need a pro we got you covered,
+if you need a normal person to play with? We even allow you to choose the gender of your teamate.
+
 ## 🛠️ Tech Stack
 
 HTML5: Semantic structure for better SEO and accessibility.
